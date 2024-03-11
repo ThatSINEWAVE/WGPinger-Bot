@@ -1,0 +1,188 @@
+{
+  "list": [
+    {
+      "name": "PCW0",
+      "place": "Germany: Frankfurt",
+      "address": "gate.projectcw.dev",
+      "color": "#FF0000",
+      "visible": [0,1],
+      "api": "PCW0"
+    },
+    {
+      "name": "PCW1",
+      "place": "Germany: Frankfurt",
+      "address": "gate.projectcw.dev:27100",
+      "color": "#EB9100",
+      "visible": [0,2],
+      "api": "PCW1"
+    },
+    {
+      "name": "PCW2",
+      "place": "Germany: Frankfurt",
+      "address": "gate.projectcw.dev:30000",
+      "color": "#32CD32",
+      "visible": [0,3],
+      "api": "PCW2"
+    },
+    {
+      "name": "RU1",
+      "place": "Russia: Moscow",
+      "address": "login.p1.tanki.su",
+      "color": "#FF0000",
+      "visible": [0,1],
+      "api": "RU1"
+    },
+    {
+      "name": "RU2",
+      "place": "Russia: Moscow",
+      "address": "login.p2.tanki.su",
+      "color": "#EB9100",
+      "visible": [0,2],
+      "api": "RU2"
+    },
+    {
+      "name": "RU4",
+      "place": "Russia: Yekaterinburg",
+      "address": "login.p4.tanki.su",
+      "color": "#32CD32",
+      "visible": [0,3],
+      "api": "RU4"
+    },
+    {
+      "name": "RU6",
+      "place": "Russia: Moscow",
+      "address": "login.p6.tanki.su",
+      "color": "#00BFFF",
+      "visible": [0,4],
+      "api": "RU6"
+    },
+    {
+      "name": "RU7",
+      "place": "Russia: Saint-Petersburg",
+      "address": "login.p7.tanki.su",
+      "color": "#0000FF",
+      "visible": [0,5],
+      "api": "RU7"
+    },
+    {
+      "name": "RU8",
+      "place": "Russia: Krasnoyarsk",
+      "address": "login.p8.tanki.su",
+      "color": "#8B008B",
+      "visible": [0],
+      "api": "RU8"
+    },
+    {
+      "name": "RU9",
+      "place": "Russia: Khabarovsk",
+      "address": "login.p9.tanki.su",
+      "color": "#FF00FF",
+      "visible": [0],
+      "api": "RU9"
+    },
+    {
+      "name": "EU1",
+      "place": "Netherlands: Amsterdam",
+      "address": "login.p1.worldoftanks.eu",
+      "color": "#000000",
+      "visible": [],
+      "api": "EU1"
+    },
+    {
+      "name": "EU2",
+      "place": "Luxembourg: Luxembourg",
+      "address": "login.p2.worldoftanks.eu",
+      "color": "#EB9100",
+      "visible": [],
+      "api": "EU2"
+    },
+    {
+      "name": "EU3",
+      "place": "Luxembourg: Luxembourg",
+      "address": "login.p3.worldoftanks.eu",
+      "color": "#008000",
+      "visible": [],
+      "api": "203"
+    },
+    {
+      "name": "EU4",
+      "place": "Kazakhstan: Almaty",
+      "address": "login.p4.worldoftanks.eu",
+      "color": "#039AB5",
+      "visible": [],
+      "api": "204"
+    },
+    {
+      "name": "USC",
+      "place": "USA: Chicago",
+      "address": "wotna3.login.wargaming.net",
+      "color": "#DC143C",
+      "visible": [],
+      "api": "USC"
+    },
+    {
+      "name": "LATAM",
+      "place": "Brazil: Sao Paulo",
+      "address": "wotna4.login.wargaming.net",
+      "color": "#32CD32",
+      "visible": [],
+      "api": "LATAM"
+    },
+    {
+      "name": "ASIA",
+      "place": "Singapore: Singapore",
+      "address": "wotasia1.login.wargaming.net",
+      "color": "#008000",
+      "visible": [],
+      "api": "ASIA"
+    },
+    {
+      "name": "CH1",
+      "place": "China: Shanghai",
+      "address": "login.wotcnq1.wotgame.cn",
+      "color": "#FF0000",
+      "visible": [],
+      "api": "CH1"
+    },
+    {
+      "name": "CH2",
+      "place": "China: Shanghai",
+      "address": "login.wotcnq2.wotgame.cn",
+      "color": "#FF8C00",
+      "visible": [],
+      "api": "CH2"
+    },
+    {
+      "name": "XVM",
+      "place": "Germany: Falkenstein",
+      "address": "stat.modxvm.com",
+      "color": "#000000",
+      "visible": [],
+      "api": "XVM"
+    },
+    {
+      "name": "PT1",
+      "place": "Russia: Saint-Petersburg",
+      "address": "login1-wotrpt.lesta.ru",
+      "color": "#8A2BE2",
+      "visible": [],
+      "api": "PT1"
+    },
+    {
+      "name": "CT1",
+      "place": "Germany: Frankfurt",
+      "address": "login-ct-p1.worldoftanks.net",
+      "color": "#006C6C",
+      "visible": [],
+      "api": "CT1"
+    },
+    {
+      "name": "CT2",
+      "place": "Germany: Frankfurt",
+      "address": "login-ct-p2.worldoftanks.net",
+      "color": "#A52A2A",
+      "visible": [],
+      "api": "CT2"
+    }
+  ]
+}
