@@ -62,6 +62,8 @@ This JSON file contains information about game servers, including their names, a
 
 The bot automatically updates Discord channel names with real-time player counts and ping information. The channels are mapped in the channel_mapping dictionary in main.py.
 
+## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
