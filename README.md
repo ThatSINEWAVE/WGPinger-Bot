@@ -1,6 +1,10 @@
+<div align="center">
+
 # WGPinger - Server Monitoring Discord Bot
 
 This Discord bot provides server statistics for Wargaming (WG) servers and allows users to check the ping for specific game servers. Additionally, it updates Discord channel names with real-time player counts and ping information.
+
+</div>
 
 ## Installation
 
@@ -62,7 +66,11 @@ This JSON file contains information about game servers, including their names, a
 
 The bot automatically updates Discord channel names with real-time player counts and ping information. The channels are mapped in the channel_mapping dictionary in main.py.
 
+<div align="center">
+
 ## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
+</div>
 
 ## License
 
