@@ -12,32 +12,73 @@ This Discord bot provides server statistics for Wargaming (WG) servers and allow
 
 </div>
 
+## Features
+
+- Get real-time Wargaming server statistics (player counts) by region
+- Check ping to specific game servers 
+- Automatically update Discord channel names with server stats and ping information
+- Support for multiple regions: EU, NA, ASIA, and more
+- Easy configuration using environment variables
+
+<div align="center">
+
+## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
+</div>
+
 ## Installation
 
 1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/your-username/WGPinger-Bot.git
+cd WGPinger-Bot
 ```
 
 2. **Install the required Python packages:**
 
 ```bash
-pip install discord.py discord-py-slash-command pythonping requests
+pip install discord.py python-dotenv aiohttp
 ```
 
-3. **Create a Discord bot and obtain the bot token.**
+3. **Set up your environment variables:**
 
-Replace the placeholder token in main.py with your bot token:
+Copy the example environment file and edit it with your credentials:
 
-```python
-bot.run('YOUR_BOT_TOKEN')
+```bash
+cp .env.example .env
 ```
+
+Then edit the `.env` file with the following information:
+- Your Discord bot token
+- Your Wargaming Application ID
+- Channel IDs for server stats display
 
 4. **Run the bot:**
 
 ```bash
 python main.py
+```
+
+## Environment Configuration
+
+The bot uses environment variables for all configuration settings:
+
+- `DISCORD_BOT_TOKEN`: Your Discord bot token
+- `WG_APPLICATION_ID`: Your Wargaming application ID
+- Server channel mappings (for each server):
+  - `SERVER_PLAYERS_CHANNEL_ID`: Channel to display player count
+  - `SERVER_PING_CHANNEL_ID`: Channel to display ping
+
+Example for the `.env` file:
+
+```
+DISCORD_BOT_TOKEN=your_discord_bot_token_here
+WG_APPLICATION_ID=your_wargaming_application_id_here
+
+# Channel IDs
+EU1_PLAYERS_CHANNEL_ID=123456789012345678
+EU1_PING_CHANNEL_ID=123456789012345678
 ```
 
 ## Commands
@@ -46,37 +87,44 @@ python main.py
 
 ### Usage:
 
-```bash
+```
 /wgstats [region]
 ```
 
-region (optional): The server region (e.g., "EU", "NA", "ASIA"). Defaults to "EU" if not specified.
+`region` (optional): The server region ("EU", "NA", "ASIA", or "ALL"). Defaults to "EU" if not specified.
 
 2. **/checkping** - Checks the ping for a specific game server or all servers.
 
 ### Usage:
 
-```bash
+```
 /checkping [server]
 ```
 
-server: The server API name. Use "ALL" to check ping for all servers.
-
-## Configuration
-
-`clusters.json`
-
-This JSON file contains information about game servers, including their names, addresses
-
-### Automatic Channel Updates
-
-The bot automatically updates Discord channel names with real-time player counts and ping information. The channels are mapped in the channel_mapping dictionary in main.py.
+`server`: The server API name or "ALL" to check ping for all servers.
 
 <div align="center">
 
-## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+# [Join my discord server](https://discord.gg/2nHHHBWNDw)
 
 </div>
+
+## Server Configuration
+
+Server information is stored in `clusters.json`. This file contains details about each game server:
+- Server name
+- Location
+- Connection address
+- API identifier
+- Color code for display
+
+## Automatic Channel Updates
+
+The bot automatically updates Discord channel names with:
+- Current player counts for each server
+- Current ping times in milliseconds
+
+These updates occur every 5 minutes to avoid Discord API rate limits.
 
 ## License
 
